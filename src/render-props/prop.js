@@ -5,7 +5,7 @@ import Cat from './cat';
 function Prop() {
     return (
       <div className="Prop">
-        <h1>Move the mouse around!</h1>
+        <h1>Render Props</h1>
         <Mouse 
           render={mouse => ( <Cat mouse={mouse} />) }
         />
