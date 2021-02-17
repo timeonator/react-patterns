@@ -15,7 +15,7 @@ export default function BasicRoute() {
     <Router>
       <div>
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">Example</Navbar.Brand>
+        <Navbar.Brand href="/">React Patterns</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className = "d-flex justify-content-end" p2>
@@ -53,13 +53,6 @@ function Home() {
   );
 }
 
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
 
 function Dashboard() {
   return (
